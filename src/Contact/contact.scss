@@ -1,0 +1,68 @@
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    
+    // border: 2px solid #671170;
+    // background-color: #D6ACDA;
+    .set {
+        display: flex;
+        background-color: #D6ACDA;
+        margin-right: 60px;
+        
+    }
+    .me-contact {
+        max-width: 90%;
+    }
+    .contact-info {
+        font-size: 2rem;
+        width: 17%;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .fa {
+            margin-right: 10px;
+            &:hover {
+                color: #D6ACDA;
+            }
+        }
+        .social {
+            margin: 40px auto;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            .fa {
+                font-size: 3rem;
+                &:hover {
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+    
+}
+
+.form {
+    width: 80%;
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #D6ACDA;
+    margin: 20px;
+    padding: 80px 20px;
+    h3 {
+        font-size: 3rem;
+    }
+    label {
+        font-size: 2rem;
+    }
+    button {
+        width: 20%;
+    }
+}
+}
+

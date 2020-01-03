@@ -1,0 +1,18 @@
+.aboutme {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px auto;
+    width: 70%;
+    border: 2px solid #671170;
+    background-color: #D6ACDA;
+    .me {
+        max-width: 90%;
+    }
+
+    .info-section {
+        padding: 20px;
+        font-size: 2rem;
+    }
+    
+    
+}

@@ -1,0 +1,57 @@
+.footer-section {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #671170;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+    .footer {
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright {
+        border-right: 2px solid white;
+        font-size: 2rem;
+       
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        border-right: 2px solid white;
+        font-size: 2rem;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .fa {
+            &:hover {
+                color: #D6ACDA;
+                font-size: 4rem;
+            }
+        }
+        .contact-footer-icons{
+        .fa-home, .fa-phone, .fa-envelope {
+            margin: 20px;
+        }
+    }
+        .social {
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    .footer-contact {
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            font-size: 2rem;
+            
+        }
+        
+    }
+}
